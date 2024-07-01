@@ -189,13 +189,6 @@ const SkeletonFour = () => {
                 variants={first}
                 className="h-full w-1/3 rounded-2xl bg-white p-4 dark:bg-black dark:border-white/[0.1] border border-neutral-200 flex flex-col items-center justify-center"
             >
-                <Image
-                    src="https://pbs.twimg.com/profile_images/1417752099488636931/cs2R59eW_400x400.jpg"
-                    alt="avatar"
-                    height="100"
-                    width="100"
-                    className="rounded-full h-10 w-10"
-                />
                 <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
                     Just code in Vanilla Javascript
                 </p>
@@ -204,13 +197,6 @@ const SkeletonFour = () => {
                 </p>
             </motion.div>
             <motion.div className="h-full relative z-20 w-1/3 rounded-2xl bg-white p-4 dark:bg-black dark:border-white/[0.1] border border-neutral-200 flex flex-col items-center justify-center">
-                <Image
-                    src="https://pbs.twimg.com/profile_images/1417752099488636931/cs2R59eW_400x400.jpg"
-                    alt="avatar"
-                    height="100"
-                    width="100"
-                    className="rounded-full h-10 w-10"
-                />
                 <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
                     Tailwind CSS is cool, you know
                 </p>
@@ -222,13 +208,6 @@ const SkeletonFour = () => {
                 variants={second}
                 className="h-full w-1/3 rounded-2xl bg-white p-4 dark:bg-black dark:border-white/[0.1] border border-neutral-200 flex flex-col items-center justify-center"
             >
-                <Image
-                    src="https://pbs.twimg.com/profile_images/1417752099488636931/cs2R59eW_400x400.jpg"
-                    alt="avatar"
-                    height="100"
-                    width="100"
-                    className="rounded-full h-10 w-10"
-                />
                 <p className="sm:text-sm text-xs text-center font-semibold text-neutral-500 mt-4">
                     I love angular, RSC, and Redux.
                 </p>
@@ -275,13 +254,6 @@ const SkeletonFive = () => {
                 variants={variants}
                 className="flex flex-row rounded-2xl border border-neutral-100 dark:border-white/[0.2] p-2  items-start space-x-2 bg-white dark:bg-black"
             >
-                <Image
-                    src="https://pbs.twimg.com/profile_images/1417752099488636931/cs2R59eW_400x400.jpg"
-                    alt="avatar"
-                    height="100"
-                    width="100"
-                    className="rounded-full h-10 w-10"
-                />
                 <p className="text-xs text-neutral-500">
                     There are a lot of cool framerworks out there like React, Angular,
                     Vue, Svelte that can make your life ....
