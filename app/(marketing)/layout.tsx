@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from "@/app/(marketing)/_components/navbar";
 
-const MaketingLayout = ({ children }: { children: React.ReactNode}) => {
+const MarketingLayout = ({ children }: { children: React.ReactNode}) => {
     return (
         <div
             className="h-full"
@@ -16,4 +16,4 @@ const MaketingLayout = ({ children }: { children: React.ReactNode}) => {
     );
 };
 
-export default MaketingLayout;
+export default MarketingLayout;

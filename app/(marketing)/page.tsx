@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main className="min-h-full flex flex-col items-center justify-center">
       <div
-        className="flex flex-col  items-center justify-between md:justify-between text-center gap-x-8 flex-1"
+        className="flex flex-col  items-center justify-between md:justify-between text-center gap-x-8 flex-1 "
       >
           <Heroes />
           <Heading />

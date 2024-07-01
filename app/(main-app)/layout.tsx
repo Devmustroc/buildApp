@@ -21,7 +21,7 @@ const MainLayouts = ({ children }: { children: React.ReactNode}) => {
 
     return (
         <div
-            className="flex h-full dark:bg-[#1F1F1F]"
+            className="flex h-full"
         >
             <Navigation />
             <main
