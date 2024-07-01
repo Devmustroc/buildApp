@@ -19,11 +19,11 @@ const Detail = () => {
                         }
                     >
                         <Image
-                            src={`/linear.webp`}
+                            src={`/images/hero.png`}
                             alt="hero"
-                            height={720}
+                            height={1400}
                             width={1400}
-                            className="mx-auto rounded-2xl object-cover h-full object-left-top"
+                            className="mx-auto rounded-2xl object-fill object-center h-full w-full"
                             draggable={false}
                         />
                     </ContainerScroll>

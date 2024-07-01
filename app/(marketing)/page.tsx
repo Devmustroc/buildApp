@@ -9,18 +9,18 @@ export default function Home() {
   return (
     <main className="min-h-full flex flex-col items-center justify-center">
       <div
-        className="flex flex-col  items-center justify-between md:justify-between text-center gap-x-8 flex-1 "
+        className="flex flex-col items-center justify-between md:justify-between text-center gap-x-8"
       >
           <Heroes />
           <Heading />
 
       </div>
       <div
-        className="flex flex-col items-center justify-between md:justify-between text-center gap-x- 8 flex-1"
+        className="md:justify-between text-center gap-x-8 mx-2 flex-1"
       >
           <Detail />
-          <GridAbout />
       </div>
+      <GridAbout />
       <Footer />
     </main>
   );
