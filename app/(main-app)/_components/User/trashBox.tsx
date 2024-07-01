@@ -8,7 +8,6 @@ import Spinner from "@/components/ui/spinner";
 import {RotateCcw, Search, Trash2} from "lucide-react";
 import {Input} from "@/components/ui/input";
 import ConfirmModal from "@/components/modal/confirm-modal";
-import {useEdgeStore} from "@/lib/edgestore";
 
 const TrashBox = () => {
     const router = useRouter();

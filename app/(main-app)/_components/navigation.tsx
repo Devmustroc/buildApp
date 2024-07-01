@@ -1,10 +1,10 @@
 import React, {ElementRef, useEffect, useRef, useState} from 'react';
-import {ArchiveIcon, ChevronsLeft, Menu, Plus, PlusCircleIcon, Search, Settings, Trash} from "lucide-react";
+import {ArchiveIcon, ChevronsLeft, Menu, Plus, PlusCircleIcon, Search, Settings} from "lucide-react";
 import {useMediaQuery} from "usehooks-ts";
 import {useParams, usePathname, useRouter} from "next/navigation";
 import {cn} from "@/lib/utils";
 import UserItem from "@/app/(main-app)/_components/User/userItem";
-import {useMutation, useQuery} from "convex/react";
+import {useMutation} from "convex/react";
 import {api} from "@/convex/_generated/api";
 import Item from "@/app/(main-app)/_components/User/item";
 import {toast} from "sonner";

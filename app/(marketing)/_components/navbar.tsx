@@ -6,7 +6,6 @@ import {cn} from "@/lib/utils";
 import Logo from "@/app/(marketing)/_components/logo";
 import {ModeToggle} from "@/components/modeToggle";
 import {useConvexAuth} from "convex/react";
-import {Loader} from "lucide-react";
 import {SignInButton, UserButton} from "@clerk/clerk-react";
 import {Button} from "@/components/ui/button";
 import Spinner from "@/components/ui/spinner";

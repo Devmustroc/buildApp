@@ -6,7 +6,6 @@ import {useRouter} from "next/navigation";
 import {useUser} from "@clerk/clerk-react";
 import {useMutation} from "convex/react";
 import {api} from "@/convex/_generated/api";
-import {arch} from "node:os";
 import {toast} from "sonner";
 import {
     DropdownMenu,

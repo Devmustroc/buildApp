@@ -9,7 +9,7 @@ import {
     DropdownMenuTrigger
 } from "@/components/ui/dropdown-menu";
 import {Avatar, AvatarImage} from "@/components/ui/avatar";
-import {ChevronLeft, ChevronsUpDown} from "lucide-react";
+import { ChevronsUpDown } from "lucide-react";
 import {Button} from "@/components/ui/button";
 
 const UserItem = () => {

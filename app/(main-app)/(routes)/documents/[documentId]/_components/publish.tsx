@@ -4,7 +4,6 @@ import {useOrigin} from "@/hooks/useOrigin";
 import {useMutation} from "convex/react";
 import {api} from "@/convex/_generated/api";
 import {toast} from "sonner";
-import navigation from "@/app/(main-app)/_components/navigation";
 import {Popover, PopoverContent, PopoverTrigger} from "@/components/ui/popover";
 import {Button} from "@/components/ui/button";
 import {Check, Copy, Globe} from "lucide-react";

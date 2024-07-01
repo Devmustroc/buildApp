@@ -7,7 +7,6 @@ import {api} from "@/convex/_generated/api";
 import Toolbar from "@/components/toolbar";
 import CoverImage from "@/components/coverImage";
 import {Skeleton} from "@/components/ui/skeleton";
-import EditorContents from "@/components/editorContent";
 import dynamic from "next/dynamic";
 
 
