@@ -4,7 +4,6 @@
 [![Convex](https://img.shields.io/badge/Convex-Realtime_Backend-EE342F?style=for-the-badge&logo=convex&logoColor=white)](https://www.convex.dev/)
 [![BlockNote](https://img.shields.io/badge/BlockNote-Notion_Editor-000000?style=for-the-badge&logo=editor&logoColor=white)](https://www.blocknotejs.org/)
 [![Clerk](https://img.shields.io/badge/Clerk-Authentication-6C47FF?style=for-the-badge&logo=clerk&logoColor=white)](https://clerk.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
 **BuildApp** is a full-stack, real-time workspace and document management platform inspired by **Notion**. Built with **Next.js 14**, **Convex Database**, **BlockNote Editor**, **Clerk Auth**, **EdgeStore**, and **Framer Motion**, it offers rich document editing, nested page structures, live real-time sync, and trash recovery.
 
@@ -96,12 +95,6 @@ buildApp/
 ├── hooks/                # Custom React hooks & state stores (Zustand)
 └── lib/                  # EdgeStore setup & client utilities
 ```
-
----
-
-## 📜 License
-
-Distributed under the MIT License.
 
 ---
 
